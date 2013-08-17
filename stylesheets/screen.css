@@ -1,3 +1,7 @@
+* {
+	border:1px dashed;
+}
+
 header {
     width:404px;
     position:relative;
