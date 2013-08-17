@@ -1,21 +1,5 @@
-p {
-  font-family: sans-serif;
-}
-
-.yank {
-  font-family: Arial;
-  font-weight: normal;
-  color: #505050;
-}
-
-#name {
-  font-family: Arial;
-  font-weight: normal;
-  font-size:15px;
-  color: #505050;
-}
-
 header {
+    border:1px dashed;
     width:404px;
     position:fixed;
     top:7%;
@@ -24,11 +8,21 @@ header {
 }
 
 body {
+  border:1px dashed;
   width: 500px;
-  position: fixed;
+  position: relative;
   left:50%;
   margin-left:-250px;
-  margin-top:150;
+  margin-top:200px;
+}
+
+a {
+  text-decoration:none;
+  color: #505050;
+}
+
+a:hover {
+  color: #680000;
 }
 
 .button {
@@ -44,29 +38,27 @@ body {
   box-shadow: 5px 5px 5px #888888;
 }
 
+.grey {
+  font-family: Arial;
+  font-weight: normal;
+  color: #505050;
+}
+
+#name {
+  font-family: Arial;
+  font-weight: normal;
+  font-size:15px;
+  color: #505050;
+}
+
 div p {
-	position: relative;
+  position: relative;
 	margin-top: 21px;
 	font-size: 12px;
 }
 
-/*#chandra {
-  height:100px;
-  position: relative;
-  margin-top:-32%;
-  left:-105px; <img id="chandra" src="http://faculty.wcas.northwestern.edu/~dha724/images/cxc_logo_transbkg_orig.gif"/>
-}*/
-
-a {
-  text-decoration:none;
-  color: #505050;
-}
-
-a:hover {
-  color: #680000;
-}
-
 .bodyp {
+  font-family:sans-serif;
   margin:-15 0 0 0;
   font-size:13px;
 }
