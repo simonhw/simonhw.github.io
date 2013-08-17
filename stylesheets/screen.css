@@ -24,7 +24,7 @@ a:hover {
 
 .button {
   position: relative;
-	display: inline-block;
+  display: inline-block;
 	height: 60px;
 	width: 60px;
 	border-radius: 100%;
@@ -72,4 +72,13 @@ h3 {
 
 #content{
   margin-top:0px;
+}
+
+#ulbow {
+  width:410px;
+  padding:5px;
+  border-radius:6%;
+  position:relative;
+  left:50%;
+  margin-left:-205px;
 }
