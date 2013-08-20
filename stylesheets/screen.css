@@ -6,7 +6,6 @@ header {
 }
 
 body {
-	border: 1px dashed;
   width: 500px;
   position: relative;
   left:50%;
@@ -76,11 +75,10 @@ h3 {
 }
 
 #ulbow {
-	border: 1px dashed;
-  width:400px;
+  width:200px;
   padding:5px;
   border-radius:6%;
   position:relative;
   left:50%;
-  margin-left:-20px;
+  margin-left:-100px;
 }
