@@ -75,10 +75,10 @@ h3 {
 }
 
 #ulbow {
-  width:200px;
+  width:300px;
   padding:5px;
   border-radius:6%;
   position: relative;
   left:50%;
-  margin-left:-100px;
+  margin-left:-150px;
 }
