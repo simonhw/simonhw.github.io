@@ -4,106 +4,96 @@ header {
     left:50%;
     margin-left:-250px;
 }
-
 body {
-  width: 500px;
-  position: relative;
-  left:50%;
-  margin-left:-250px;
-  margin-top:30px;
+    width: 500px;
+    position: relative;
+    left:50%;
+    margin-left:-250px;
+    margin-top:30px;
 }
-
 #wcen {
-  width:200px;
-  border-radius:5%;
-  box-shadow: 5px 5px 5px #888888;
-  margin: 0 0 0 5;
-  }
-
+    width:200px;
+    border-radius:5%;
+    box-shadow: 5px 5px 5px #888888;
+    margin: 0 0 0 5;
+}
 a {
-  text-decoration:none;
-  color: #505050;
+    text-decoration:none;
+    color: #505050;
 }
-
 a:hover {
-  color: #680000;
+    color: #680000;
 }
-
+#ld {
+    width:20;
+    height:15;
+    vertical-align:middle;
+}
 #face {
-  position: relative;
-  display: inline-block;
-  height: 60px;
-  width: 60px;
-	border-radius: 100%;
-	border: 1px solid #505050;
-	margin-left: 15px;
-	margin-top: 5px;
-  box-shadow: 5px 5px 5px #888888;
+    position: absolute;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 1px solid #505050;
+    margin-left: 15px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px #888888;
 }
-
 .button {
-  position: relative;
-  display: inline-block;
-  height: 60px;
-	width: 60px;
-	border-radius: 100%;
-	border: 1px solid #505050;
-	margin-left: 15px;
-	margin-top: 5px;
-	text-align: center;
-  box-shadow: 5px 5px 5px #888888;
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 1px solid #505050;
+    margin-left: 15px;
+    margin-top: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #888888;
 }
-
 .grey {
-  font-family: Arial;
-  font-weight: normal;
-  color: #505050;
+    font-family: Arial;
+    font-weight: normal;
+    color: #505050;
 }
-
 .buttonp {
-  font-family: Arial;
-  position: relative;
-  margin-top: 21px;
-	font-size: 12px;
+    font-family: Arial;
+    position: relative;
+    margin-top: 21px;
+    font-size: 12px;
 }
-
 #name {
-  font-family: Arial;
-  font-weight: normal;
-  font-size:15px;
-  color: #505050;
+    font-family: Arial;
+    font-weight: normal;
+    font-size:15px;
+    color: #505050;
 }
-
 .bodyp {
-  font-family:sans-serif;
-  margin:-20 0 0 0;
-  font-size:13px;
-  line-height:130%;
+    font-family:sans-serif;
+    margin:-20 0 0 0;
+    font-size:13px;
+    line-height:130%;
 }
-
 h2 {
-  margin: 0 0 20 0;
-  font-size:25px;
+    margin: 0 0 20 0;
+    font-size:25px;
 }
-
 h3 {
-  margin: 25 0 20 0;
+    margin: 25 0 20 0;
 }
-
-#content{
-  margin-top:0px;
+#content {
+    margin-top:0px;
 }
-
 #ulbow {
-  width:350px;
-  padding:5px;
-  border-radius:6%;
-  position: relative;
-  left:50%;
-  margin-left:-175px;
+    width:350px;
+    padding:5px;
+    border-radius:6%;
+    position: relative;
+    left:50%;
+    margin-left:-175px;
 }
-
 #ucc {
-   width:260px; 
-   margin-left:25%;  
+    width:260px;
+    margin-left:25%;
 }
