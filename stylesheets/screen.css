@@ -29,6 +29,18 @@ a:hover {
   color: #680000;
 }
 
+#face {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+	border-radius: 100%;
+	border: 1px solid #505050;
+	margin-left: 15px;
+	margin-top: 5px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
 .button {
   position: relative;
   display: inline-block;
