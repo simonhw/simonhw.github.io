@@ -30,7 +30,6 @@ a:hover {
     vertical-align:middle;
 }
 #face {
-    position: absolute;
     display: inline-block;
     height: 60px;
     width: 60px;
