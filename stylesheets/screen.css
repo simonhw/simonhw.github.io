@@ -13,6 +13,13 @@ body {
   margin-top:30px;
 }
 
+#wcen {
+  width:200px;
+  border-radius:5%;
+  box-shadow: 5px 5px 5px #888888;
+  margin: 0 0 0 5;
+  }
+
 a {
   text-decoration:none;
   color: #505050;
@@ -25,7 +32,7 @@ a:hover {
 .button {
   position: relative;
   display: inline-block;
-	height: 60px;
+  height: 60px;
 	width: 60px;
 	border-radius: 100%;
 	border: 1px solid #505050;
@@ -57,7 +64,7 @@ a:hover {
 
 .bodyp {
   font-family:sans-serif;
-  margin:-30 0 0 0;
+  margin:-20 0 0 0;
   font-size:13px;
   line-height:130%;
 }
@@ -82,4 +89,9 @@ h3 {
   position: relative;
   left:50%;
   margin-left:-175px;
+}
+
+#ucc {
+   width:260px; 
+   margin-left:25%;  
 }
