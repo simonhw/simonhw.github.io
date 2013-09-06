@@ -324,14 +324,14 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: #696969;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #2a6496;
-  text-decoration: underline;
+  color: #680000;
+  text-decoration: none;
 }
 
 a:focus {
@@ -6802,4 +6802,25 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+
+#ucc {
+    width:260px;
+    margin-left:25%;
+}
+
+#wcen {
+    width:200px;
+    border-radius:5%;
+    box-shadow: 5px 5px 5px #888888;
+    margin: 0 0 0 5;
+}
+
+#ulbow {
+    width:350px;
+    padding:5px;
+    border-radius:6%;
+    position: relative;
+    left:50%;
+    margin-left:-175px;
 }
