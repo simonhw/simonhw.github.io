@@ -5,20 +5,30 @@
     <link href="http://www.seasky.org/wallpaper/assets/wallpaper_sky/galaxy-NGC1300-icon.jpg" rel="icon">
     <link rel="stylesheet" href="/stylesheets/bootstrap.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+      var pcs = document.lastModified.split(" ")[0].split("/");
+      var date = pcs[1] + '/' + pcs[0] + '/' + pcs[2];
+      onload = function(){
+      document.getElementById("lastModified").innerHTML = "Page last updated: " + date;
+      }
+    </script>
   </head>
 
   <body>
     <div class="container">
       <header>
+        <br>
+      <div class="row">
+          <div class="col-lg-6 col-lg-offset-4">
+            <span style="font-size:200%;">
+              <img style="width:100px;border-radius:10%;"  src="images/photo.jpg"/> &nbsp&nbsp Simon Henleywillis
+            </span>
+          </div>  
+        </div> 
+        <br>            
         <div class="row">
         
-          <div id="sdbr" class="col-lg-3 col-lg-offset-0">
-            <span class="headitem">
-              <h2>Simon Henleywillis</h2>
-            </span>
-          </div>
-        
-          <div class="col-lg-6 col-lg-offset-0">
+          <div class="col-lg-6 col-lg-offset-3">
             <ul class="nav nav-tabs nav-justified">        
               <li>
                 <a href="/index.html" data-toggle="tab">
@@ -48,25 +58,19 @@
         </div>
       </header>
 
-      <div class="row">
-        <div class="col-lg-3 col-lg-offset-0">
-          <div style="width:100px; margin:auto;">
-            
-              <img style="width:100px;border-radius:10%;"  src="images/photo.jpg"/>
-
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-lg-offset-0">
+        <div class="col-lg-6 col-lg-offset-3" style="text-align:justify; text-justify:inter-word;">
       You can view my CV on LinkedIn <a href="http://ie.linkedin.com/pub/simon-henleywillis/6b/b8a/26">here</a>.
 
       <h3>Education</h3>
       September 2014 - B.Sc in Astrophysics, <a href="http://www.ucc.ie">University College Cork</a> 
 
-      <h3>Publications</h3>
-      I am working on one publication at the moment as described <a href="/index.html">here</a>.
-      <br>
-      <br>
+    <h3>Publications</h3>
+    I am working on one publication at the moment as described <a href="/index.html">here</a>.
+<br>
+              <hr class="shadow">
+              <p style="text-align:center;">&copy; Simon Henleywillis, 2014<br>
+              Image credit: NASA<br>
+              <span id="lastModified"></span></p>
 
       
     </div>

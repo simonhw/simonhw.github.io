@@ -48,7 +48,10 @@ html {
 
 body {
   margin: 0;
-  background-color: #000000;
+  /* background: url(../images/wcenlarge.jpg);*/
+  background-color: #282828;
+  /*background-size:   cover;                      
+  background-repeat: no-repeat;*/
 }
 
 #headdiv {
@@ -6819,10 +6822,12 @@ td.visible-print {
 }
 
 #wcen {
-    width:200px;
-    border-radius:5%;
-    box-shadow: 5px 5px 5px #888888;
-    margin: 0 0 0 5;
+    width:400px;
+    border-radius:2%;position: relative;
+    left: 50%;
+    margin-left: -200px;
+    /*box-shadow: 5px 5px 5px #888888;*/
+    margin: 5 5 5 5;
 }
 
 #ulbow {
@@ -6837,4 +6842,13 @@ td.visible-print {
 #blog {
   text-decoration: underline;
   color: #680000;
+}
+
+hr.shadow {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
