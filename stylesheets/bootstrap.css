@@ -6818,12 +6818,55 @@ td.visible-print {
 
 #ucc {
     width:260px;
-    margin-left:25%;
+    left:50%;
+    position: relative;
+    margin-left: -130px;
+}
+
+#iucc {
+  width: 260px;
+}
+
+#sfsu {
+    width:100px; 
+    left:20%;
+    position: relative;
+    margin-left: -20px;
+}
+
+#isfsu {
+    width:100px; 
+    border-radius:100%;
+}
+
+#nrthw {
+    width:100px; 
+    left:50%;
+    position: relative;
+    margin-left: -50px;
+}
+
+#inrthw {
+    width:100px; 
+    border-radius:100%;
+}
+
+#alber {
+    width:100px; 
+    left:50%;
+    position: relative;
+    margin-left: -50px;
+}
+
+#ialber {
+    width:100px; 
+    border-radius:100%;
 }
 
 #wcen {
     width:400px;
-    border-radius:2%;position: relative;
+    border-radius:2%;
+    position: relative;
     left: 50%;
     margin-left: -200px;
     /*box-shadow: 5px 5px 5px #888888;*/

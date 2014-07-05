@@ -6834,6 +6834,13 @@ td.visible-print {
     margin-left:-175px;
 }
 
+#blackhole {
+  width: 600px;
+  left:50%;
+  position: relative;
+  margin-left: -300px;
+}
+
 #blog {
   text-decoration: underline;
   color: #680000;
