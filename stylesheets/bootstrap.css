@@ -6887,6 +6887,17 @@ td.visible-print {
   color: #680000;
 }
 
+.oca {
+  width: 500px;
+  left: 50%;
+  position: relative;
+  margin-left: -250px;
+}
+
+.centre {
+  text-align: center;
+}
+
 hr.shadow {
     border: 0;
     height: 1px;
