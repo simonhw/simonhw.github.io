@@ -6880,6 +6880,7 @@ td.visible-print {
     position: relative;
     left:50%;
     margin-left:-175px;
+    overflow: hidden;
 }
 
 #blog {
